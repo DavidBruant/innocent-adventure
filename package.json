@@ -20,5 +20,16 @@
   "dependencies": {
     "dep-with-legitimate-postinstall": "github:DavidBruant/dep-with-legitimate-postinstall",
     "dep-with-malicious-postinstall": "github:DavidBruant/dep-with-malicious-postinstall"
+  },
+  "devDependencies": {
+    "@lavamoat/allow-scripts": "^3.4.1",
+    "@lavamoat/preinstall-always-fail": "^2.1.1"
+  },
+  "lavamoat": {
+    "allowScripts": {
+      "@lavamoat/preinstall-always-fail": false,
+      "dep-with-legitimate-postinstall": false,
+      "dep-with-malicious-postinstall": false
+    }
   }
 }
