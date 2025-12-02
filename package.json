@@ -28,7 +28,7 @@
   "lavamoat": {
     "allowScripts": {
       "@lavamoat/preinstall-always-fail": false,
-      "dep-with-legitimate-postinstall": false,
+      "dep-with-legitimate-postinstall": true,
       "dep-with-malicious-postinstall": false
     }
   }
