@@ -1,0 +1,24 @@
+{
+  "name": "innocent-adventure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidBruant/innocent-adventure.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidBruant/innocent-adventure/issues"
+  },
+  "homepage": "https://github.com/DavidBruant/innocent-adventure#readme",
+  "dependencies": {
+    "dep-with-legitimate-postinstall": "github:DavidBruant/dep-with-legitimate-postinstall",
+    "dep-with-malicious-postinstall": "github:DavidBruant/dep-with-malicious-postinstall"
+  }
+}
